@@ -49,12 +49,12 @@
         float: left ;
         width: 140px;
         margin-left: 21.5%;
+        /*border: 3px solid white;*/
       }
       .main-header h1{
         float: right;
-        width: 60%;
-
-        margin:0% 9% 0% -2%;
+        width: 46%;
+        margin:0% 15% 0% -4%;
         padding-top: 1%;
         text-decoration: underline;
         color: rgb(6, 245, 213);
@@ -63,7 +63,7 @@
       }
 
       #fundo.clear{
-        clear: left;
+        clear: both;
       }
       #fundo{
         background: url("fundo1.png") no-repeat;
@@ -157,7 +157,7 @@
         text-align: center;
       }
       .clear{
-        clear:left;
+        clear:both;
       }
       .cnpj{
         width: 67%;
@@ -188,7 +188,7 @@
         width: 60%;
         min-width: 300px;
         height: 100%;
-        font-size: 25px;
+        font-size: 20px;
         color: rgb(0,0,0,);
         font-style: oblique;
         border: 2px solid rgb(7, 226, 255);
@@ -198,13 +198,53 @@
       footer #ptwo{
         display: block;
         float: right;
-        font-size: 30px;
+        font-size: 24px;
         color: white;
         margin:  30px 4% 0% 0%;
         text-shadow: 1px 1px 5px rgb(0, 255, 242);
         /*border: 2px solid white;*/
       }
 
+
+      /*========Área de configuração para responsivo*/
+
+      @media screen and (max-width: 780px) {
+        .main-header{
+          height: 140px;
+        }
+        .main-header img{
+          margin-left: 2%;
+        }
+
+        .main-header h1{
+          width: 70%;
+        font-size: 35px;
+        margin-right: 2%;
+        }
+
+        #fundo{
+          height: 109%;
+        }
+
+        #menu1{
+          margin-top: 120px;
+        }
+
+        .box-conteudo{
+          margin-top: 0%;
+        }
+        .cnpj{
+          margin-top: 7%;
+        }
+
+        footer{
+          margin-top: 5%;
+        }
+        footer #pone{
+          width: 98%;
+          margin: 0;
+        }
+      }
 
     </style>
   </head>
