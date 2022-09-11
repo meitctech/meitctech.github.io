@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: block;
+  width: 100%;
+  max-width: 900px;
+  margin: 20% auto;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgb(56, 54, 54);
+}
