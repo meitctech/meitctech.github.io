@@ -28,7 +28,7 @@ body{
   width: 20px;
   height: 20px;
   color: black;
-  background:url("../_images/1933351.png") ;
+  background:url("../images/1933351.png") ;
   background-size: 100% 100%;
   border-radius: 15px ;
 }
@@ -49,7 +49,7 @@ body{
   from{
     margin-top: -100%;
   }
-  to{s
+  to{
     margin-top: 0;
   }
 }
@@ -76,7 +76,7 @@ a{
   float: left;
   width: 20px;
   height: 20px;
-  background: url("../_images/set-left.png") no-repeat;
+  background: url("../images/set-left.png") no-repeat;
   background-size: 100% 100%;
   margin-right: 0.5%;
   cursor: pointer;
@@ -108,7 +108,7 @@ a{
 }
 #menu-media li:hover{
   scale: 1.1;
-  background: url("../_images/button.jpg") no-repeat;
+  background: url("../images/button.jpg") no-repeat;
   background-size: 100% 100%;
 }
 #menu-media ul li a{
@@ -182,7 +182,7 @@ float: right;
 }
 
 #tittle-menu li:hover{
-  background:url("../_images/button.jpg");
+  background:url("../images/button.jpg");
   background-size: 100% 100%;
   scale: 1.1;
   box-shadow: 1px 1px 5px 2px rgb(233, 10, 10);
@@ -229,7 +229,7 @@ nav{
   margin: 5px 7px;
 }
 .mobile-return:hover{
-  background: url("../_images/button.jpg");
+  background: url("../images/button.jpg");
   background-size: 100% 100%;
   scale: 1.1;
 }
@@ -293,13 +293,13 @@ nav{
   cursor: pointer;
 }
 #media:hover{
-  background: url("../_images/button.jpg");
+  background: url("../images/button.jpg");
   background-size: 100% 100%;
   scale: 1.1;
   
 }
 .line a:hover{
-  background: url("../_images/button.jpg");
+  background: url("../images/button.jpg");
   background-size: 100% 100%;
   scale: 1.1;
 }
@@ -390,7 +390,7 @@ nav{
   max-width: 1192px;
   height: 600px;
   margin-top: 10px;
-  background: url("../_images/body01.jpg") no-repeat;
+  background: url("../images/body01.jpg") no-repeat;
   background-size: 100% 100%;
   background-position: 0px 0px;
   box-shadow: 1px 1px 23px 2px rgb(247, 190, 3);

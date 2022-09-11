@@ -38,7 +38,7 @@ div{
   width: 25%;
   height: 150px;
   margin: 2%;
-  background: url("../_images/fundo.jpg") no-repeat;
+  background: url("../images/fundo.jpg") no-repeat;
   background-size: 110% 110%;
   background-position: center;
   transition-duration: 0.5s;
