@@ -48,7 +48,6 @@ p{
 }
 
 .name, .email{
-  display: inline-block;
   padding:0;
   width: 50%;
   margin: 0 3px;
