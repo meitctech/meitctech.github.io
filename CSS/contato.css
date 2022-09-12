@@ -47,15 +47,15 @@ p{
   margin: 5px 0;
 }
 
+#name-email{
+  display: block;
+}
+
 .name, .email{
-  padding:0;
-  width: 50%;
-  margin: 0 3px;
-  height: 40px;
+  display:inline-block;
+  margin: 5px 5px;
 }
-.email{
-  float: right;
-}
+
 .tel{
   display: inline-block;
   margin: 5px 0;
@@ -123,3 +123,4 @@ button:hover{
 #chat a{
   text-decoration: none;
 }
+
