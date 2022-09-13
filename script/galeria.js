@@ -1,3 +1,3 @@
 var corpo = document.getElementById("corpo");
 
-corpo.innerHTML = '<section id="gallery"><fieldset>  <legend>Galeria</legend>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div><div class="photo"></div></fieldset></section>';
+corpo.innerHTML = '<section id="gallery"><fieldset>  <legend>Galeria</legend> <h4>Fotos</h4>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div>  <div class="photo"></div> <h4>Videos</h4> <div class="photo"></div>  <div class="photo"></div><div class="photo"></div></fieldset></section>';
