@@ -5,10 +5,10 @@
 }
 
 body{
-  /* background: url('../_images/body04.jpg') no-repeat; */
+  background: url('../images/body04.jpg') no-repeat;
   background-position: 50% 50%;
   background-size: 118% 100%;
-  height: 100%;
+  height: 800px;
   overflow-x: hidden;
 
 }
@@ -41,7 +41,7 @@ body{
   display: block;
   width: 100%;
   max-width: 1200px;
-  margin: 0 3%;
+  margin: 0 auto;
   animation-name: site;
   animation-duration: 1.3s;
 }
@@ -138,7 +138,7 @@ padding: 4% 30%;
   width: 99%;
   height: 110px;
   margin-top: 7px;
-  background-color: rgba(255, 185, 9,0.5);
+  background-color: rgba(255, 185, 9,0.7);
   border-radius: 15px;
   box-shadow: 1px 1px 15px 1px black;
 }
@@ -151,8 +151,10 @@ padding: 4% 30%;
   height: 70px;
   text-align: center;
   font-size: 100%;
-  color: white;
-  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  color: rgb(42, 49, 48);
+  text-shadow: 1px 1px 5px rgb(200, 129, 247);
+  padding-top: 15px;
 }
 
 
@@ -406,9 +408,10 @@ nav{
   width: 100%;
   max-width: 900px;
   height: 580px;
-  border: 5px solido black;
+  
 }
 .conteudo{
+  display:block;
   width: 100%;
   height: 100%;
 }
