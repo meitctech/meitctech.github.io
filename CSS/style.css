@@ -66,11 +66,13 @@ a{
 #menu-media{
   position: absolute;
   width: 300px;
-  margin: -100% 0% 0% 200px;
+  height: 200px;
+  margin: 202px 0% 0% 200px;
   padding: 7px;
   background-color: rgba(76, 0, 255,0.6);
   border-radius: 5%;
   box-shadow: 1px 1px 5px 1px black;
+  display: none;
 }
 .set-left{
   float: left;
@@ -475,7 +477,7 @@ footer{
   #menu-media{
     position: absolute;
     width: 270px;
-    margin:-120% 0% 0% 235px;
+    margin:215px 0% 0% 220px;
     padding: 7px;
     background-color: rgba(76, 0, 255,0.6);
     border-radius: 5%;
